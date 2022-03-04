@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Title -->
+  <title>Blank Page</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+
+  <!-- CSS Unify -->
+  <link rel="stylesheet" href="assets/css/unify-core.css">
+  <link rel="stylesheet" href="assets/css/unify-components.css">
+  <link rel="stylesheet" href="assets/css/unify-globals.css">
+
+  <!-- CSS Customization -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body style="background-image: url(assets/img/bg/bg-img1.png);">
+  <div class="g-bg-main">
+    <div class="container g-py-5">
+      <ul class="list-inline d-flex align-items-center g-mb-0">
+        <li class="list-inline-item d-none d-lg-inline-block">
+          <a class="u-link-v5 g-brd-around g-brd-white-opacity-0_2 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 g-rounded-20 text-uppercase g-px-20 g-py-10" href="page-apply-1.html"></a>
+        </li>
+ 
+        <!-- Jump To -->
+        <li class="list-inline-item g-pos-rel">
+         
+          <ul id="jump-to-dropdown" class="list-unstyled u-shadow-v39 g-brd-around g-brd-4 g-brd-white g-bg-secondary g-pos-abs g-left-0 g-z-index-99 g-mt-13 u-dropdown--css-animation u-dropdown--hidden" aria-labelledby="jump-to-dropdown-invoker" style="animation-duration: 0ms;">
+       
+            <li class="dropdown-item g-px-0 g-py-2">
+               
+            </li>
+          </ul>
+        </li>
+        <!-- End Jump To -->
+
+        <!-- Links -->
+        
+        <!-- End Links -->
+
+        <!-- Search -->
+        <li class="list-inline-item g-ml-15--lg ml-auto">
+          <div class="link-popup" id="walletAddressText" style="color: red;">連結錢包</div>
+        </li>
+        <!-- End Search -->
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <div class="g-bg-img-hero">
+      <div class="container g-py-30">
+        <!-- Heading -->
+        <div class="g-max-width-645 text-center mx-auto g-mb-20">
+          <h2 class="h1" id="g_poolname">Pool XXX</h2>
+
+        </div>
+        <!-- End Heading -->
+        <div class="row text-center text-uppercase">
+          <div class="col-lg-3 col-sm-6 g-mb-50">
+            <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7" id="g_total_locked"> </div>
+            <h4 class="h5 g-color-gray-dark-v4">Total Locked(CFX)</h4>
+          </div>
+        
+          <div class="col-lg-3 col-sm-6 g-mb-50">
+            <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7" id="g_total_revenue"></div>
+            <h4 class="h5 g-color-gray-dark-v4">Total Revenue</h4>
+          </div>
+        
+          <div class="col-lg-3 col-sm-6 g-mb-50">
+            <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7" id="g_apy">7348</div>
+            <h4 class="h5 g-color-gray-dark-v4">APY</h4>
+          </div>
+        </div>
+        <div class="card-group d-block d-md-flex g-mx-minus-4">
+          <div class="card g-brd-none g-mx-4 g-mb-8">
+            <!-- Links -->
+            <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-20">
+
+
+              <div>
+                <!-- Contact Form -->
+                <form class="  g-bg-white rounded  ">
+                  <div class="col-lg-12 col-sm-6 g-mb-50">
+                    <h4 class="h5 g-color-gray-dark-v4">Balance</h4>
+                    <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7">
+                      <span id="spanBalance"></span>
+
+                    </div>
+                   
+                  </div>
+                  <!-- Name Input -->
+                  <div class="row align-items-center mb-4">
+                    <div class="col-sm-12">
+                      <h1 class="g-font-weight-500 g-font-size-16">How much CFX do you want to stake?(Multiples of 1,000 CFX)</h1>
+                    </div>
+                    <div class="col-sm-8">
+                      <input class="form-control form-control-md rounded-0" type="text" placeholder="Enter the CFX amout, times of 1000"  id="balance">
+                    </div>
+                    <div class="col-sm-4">
+                      <button type="submit" class="btn btn-md u-btn-inset u-btn-outline-yellow g-mr-10 g-mb-15" style="display: none;">Max</button>
+                    </div>
+                  </div>
+                  <!-- End Name Input -->
+
+                  <!-- Name Input -->
+
+                  <!-- End Name Input -->
+
+
+                  <div class="text-right">
+                    <button type="submit" data-bind="click:Try" class="btn btn-xl u-btn-outline-pink u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">Stake</button>
+                  </div>
+                </form>
+                <!-- End Contact Form -->
+              </div>
+
+
+            </div>
+            <!-- End Links -->
+          </div>
+
+          <div class="card g-brd-none g-mx-4 g-mb-8" style="display: none;">
+            <!-- Links -->
+            <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+          
+           
+            </div>
+            <!-- End Links -->
+          </div>
+
+          <div class="card g-brd-none g-mx-4 g-mb-8">
+            <!-- Links -->
+            <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+            
+          <div class="col-lg-12 col-sm-6 g-mb-50">
+                    <h4 class="h5 g-color-gray-dark-v4">My Staked:</h4>
+                    <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7">
+                      <span id="g_staked"></span>
+                    </div>
+                       <h4 class="h5 g-color-gray-dark-v4">My Rewards:</h4>
+                    <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7">
+                      <span id="g_rewards"></span>
+
+                    </div>
+                  </div>
+       
+            </div>
+            <!-- End Links -->
+          </div>
+        </div>
+
+        <div class="card-group d-block d-md-flex g-mx-minus-4" style="display: none!important;">
+          <div class="card g-brd-none g-mx-4 g-mb-8">
+            <!-- Links -->
+            <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+              <span class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
+                <i class="icon-communication-058 u-line-icon-pro"></i>
+              </span>
+              <h3 class="h4">Support</h3>
+              <p class="g-color-text-light-v1">Health, wellbeing and support services, mentoring, and clubs and
+                societies.</p>
+              <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
+                  class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+            </div>
+            <!-- End Links -->
+          </div>
+
+          <div class="card g-brd-none g-mx-4 g-mb-8">
+            <!-- Links -->
+            <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+              <span class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
+                <i class="icon-education-103 u-line-icon-pro-v3"></i>
+              </span>
+              <h3 class="h4">Student IT and Online Learning</h3>
+              <p class="g-color-text-light-v1">Log in to University systems, find computers and access wi-fi, get the
+                most out of online learning (LMS), help.</p>
+              <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
+                  class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+            </div>
+            <!-- End Links -->
+          </div>
+
+          <div class="card g-brd-none g-mx-4 g-mb-8">
+            <!-- Links -->
+            <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
+              <span class="u-icon-v3 u-shadow-v31 g-color-main g-bg-secondary-dark-v2 rounded-circle mb-4">
+                <i class="icon-communication-040 u-line-icon-pro"></i>
+              </span>
+              <h3 class="h4">Administration</h3>
+              <p class="g-color-text-light-v1">Update your personal details, obtain an academic transcript, check key
+                dates, learn about graduation, make a complaint or raise a concern.</p>
+              <a class="u-link-v5 g-color-main--hover g-font-size-default" href="#">Learn More<i
+                  class="g-font-size-13 ml-2 material-icons">arrow_forward</i></a>
+            </div>
+            <!-- End Links -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <!-- JS Global Compulsory -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+  <script src="assets/vendor/popper.min.js"></script>
+  <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Unify -->
+  <script src="assets/js/hs.core.js"></script>
+
+  <!-- JS Custom -->
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
+
+<script src="layer/layer.js"></script>
+<script src="underscore-min.js"></script>
+<script src="knockout-3.5.1.js"></script>
+
+<script type="text/javascript" src="assets/js/plugins.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="token/treasure.js"></script>
+
+<script src="Game.js"></script>

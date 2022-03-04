@@ -1,0 +1,59 @@
+{
+  "Header": {
+    "test_note": "請注意: 這是測試環境！",
+    "pos_pool": "HydraSF——三豐礦池",
+    "connect_portal": "連結錢包",
+    "error": "錯誤:",
+    "unspport_network_switch_testnet": "不支援的網路，請使用測試錢包: Conflux Testnet",
+    "unspport_network_switch_hydra": "不支援的網路，請使用主鏈錢包: Conflux Hydra"
+  },
+  "Home": {
+    "status": "狀態",
+    "pool": "礦池名稱",
+    "total_locked": "總質押量(CFX)",
+    "apy": "年收益率",
+    "performance_fee": "手续費率",
+    "total_revenue": "总收入",
+    "status_good": "運行",
+    "status_error": "錯誤",
+    "status_warning": "安裝",
+    "status_loading": "載入"
+  },
+  "ConfirmModal": {
+    "stake": "質押",
+    "stake_1": "解除質押需要 7 + 7 天",
+    "stake_2": "根據树图 PoS機制。",
+    "stake_3": "當你質押了CFX，那些CFX在7天后才能申請解除質押。",
+    "stake_4": "在提交瞭解除質押交易後，您必須要等7天才能領取到CFX。",
+    "unstake": "解除質押",
+    "unstake_1": "您需要等7天才能領取到CFX。",
+    "unstake_2": "7天解除質押期內無收益。",
+    "unstake_3": "需要收取一定費率。"
+  },
+  "Pool": {
+    "stake&unstake": "質押 和 解除質押",
+    "how_much_stake": "您想要質押多少CFX？",
+    "enter_cfx_amount": "請輸入CFX數量",
+    "max": "最大",
+    "wrong_amount": "錯誤數量",
+    "balance": "餘額:",
+    "stake": "質押",
+    "how_much_unstake": "您要解除質押多少CFX？（1000整倍數的CFX）",
+    "unstakeable": "可解除質押數量:",
+    "unstake": "解除質押",
+    "my_pool": "我的礦池",
+    "my_staked": "我的質押數量：",
+    "my_rewards": "我的獎勵：",
+    "claim": "領取",
+    "last_update_time": "上次更新時間：",
+    "performance_fee": "手續費率：",
+    "withdrawable": "可提取數量：",
+    "withdraw": "提取",
+    "unstake_activity": "解除質押啟動",
+    "can_withdraw_at": "您能解鎖的時間位於 {{time}}"
+  },
+  "TxModal": {
+    "transaction_submitted": "交易已提交。",
+    "transaction_hash": "交易雜湊值："
+  }
+}
